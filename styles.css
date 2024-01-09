@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: fixed;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    top: 0;
+    margin: 0;
+    background-color:  rgb(25, 90, 101);
+    background-size: cover;
+    text-align: center;
+    height: 100px;
+}
+header h2{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul li{
+    margin: 7px;
+    background-color: rgb(191, 209, 226);
+    border-radius: 5px;
+    padding: 3px;
+}
+section{
+    margin-top: 16px;
+    background-color: #fff;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.top .min{
+    background-color: rgb(132, 193, 204);
+    border-radius: 8px;
+    height: 290px;
+    width: 20%;
+    margin-left: 5%;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+img{
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 200px;
+}
+.top .min:last-child{
+    margin-right: 5%;
+}
+.form{
+    display: block;
+    width: 450px;
+    background-color: rgb(132, 193, 204);
+    border-radius: 8px;
+    height: max-content;
+    margin-left: 30%;
+    padding-left: 15px;
+    padding: 12px;
+    margin-top: 30px;
+}
+fieldset{
+    background-color: #fff;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+}
+label{
+    font-weight: 530;
+}
+.txt{
+    width: 150%;
+}
+button{
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(25, 90, 101);
+    border-radius: 5px;
+}
+legend{
+    background-color: rgb(25, 90, 101);
+    color: #fff;
+    border-radius: 7px;
+    padding: 5px;
+}
+table{
+    padding: 16px;
+}
+footer{
+    background-color:rgb(25, 90, 101) ;
+    height: 10vh;
+}
